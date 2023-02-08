@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main()
 {
-	int i,n;
-	printf("print all even number till: ");
-	scanf("%d",&n);
-	printf("Even numbers from 1 to %d are: \n",n);
-	for (i=1;i<=n;i++)
+	int x,k,sum=0;
+	printf("Enter: ");
+	scanf("%d",&x);
+	for(k=1;k<=x;k++)
 	{
-		if(i%2==0)
+		if(k%2==0)
 		{
-		printf("%d\n",i); 
+			sum = sum+k;
 		}
 	}
+	printf("%d",sum);
 	return 0;
 }
