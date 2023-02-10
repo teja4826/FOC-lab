@@ -1,0 +1,23 @@
+echo "enter the first number"
+read a
+echo "enter the second number"
+read b
+echo "enter the third number"
+read c
+
+if [ $a -gt $b ] && [ $a -gt $c ]
+then
+        echo "the greatest of given three number is" $a
+elif [ $b -gt $a ] && [$b -gt $c ]
+then
+        echo "the gretaest of given three number is" $b
+else
+        echo "the gretaest of given threee nuber is" $c
+fi
+OUTPUT
+Enter the first number:4
+Enter the second number:12
+Enter the third number:2
+The greatest of given three numbers is 12
+   
+   
